@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Numbers API</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Numbers API</h1>
+
+  <div class="input-container">
+    <label for="numberInput">Введите число:</label>
+    <input type="text" id="numberInput">
+    <button onclick="getNumberFact()">Получить факт о числе</button>
+    <p id="numberFact"></p>
+    <button onclick="translateNumberFact()">Перевести</button>
+  </div>
+
+  <div class="input-container">
+    <label for="dateInput">Введите дату (ММ/ДД):</label>
+    <input type="text" id="dateInput" placeholder="ММ/ДД">
+    <button onclick="getDateFact()">Получить факт о дате</button>
+    <p id="dateFact"></p>
+    <button onclick="translateDateFact()">Перевести</button>
+  </div>
+</div>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
